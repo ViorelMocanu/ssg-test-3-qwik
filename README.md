@@ -2,7 +2,7 @@
 
 A test to see which of the Static Site Generators I should use for my personal website and blog.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c85a117f-77ff-4fc2-b028-85f2859c4833/deploy-status)](https://app.netlify.com/sites/cosmic-bubblegum-8d5628/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c85a117f-77ff-4fc2-b028-85f2859c4833/deploy-status)](https://app.netlify.com/sites/ssg-test-3-qwik/deploys)
 
 # Qwik App ⚡️
 

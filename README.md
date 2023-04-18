@@ -2,6 +2,8 @@
 
 A test to see which of the Static Site Generators I should use for my personal website and blog.
 
+Tutorial here: <https://blog.openreplay.com/build-fast-web-apps-using-qwik-city/>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c85a117f-77ff-4fc2-b028-85f2859c4833/deploy-status)](https://app.netlify.com/sites/ssg-test-3-qwik/deploys)
 
 # Qwik App ⚡️

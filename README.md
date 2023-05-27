@@ -6,6 +6,20 @@ Tutorial here: <https://blog.openreplay.com/build-fast-web-apps-using-qwik-city/
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c85a117f-77ff-4fc2-b028-85f2859c4833/deploy-status)](https://app.netlify.com/sites/ssg-test-3-qwik/deploys)
 
+## Integrations to look at
+
+1. [Partytown](https://qwik.builder.io/docs/integrations/partytown/) for external scripts
+2. [Playwright](https://qwik.builder.io/docs/integrations/playwright/) for end to end testing
+3. [Vitest](https://qwik.builder.io/docs/integrations/vitest/) for unit testing
+4. [i18n via `$localize`](https://qwik.builder.io/docs/integrations/i18n/) for internationalization
+5. [Image optimization via `@unpic/qwik`](https://qwik.builder.io/docs/integrations/image-optimization/) for optimizing images
+6. [Icons via `qwikest/icons`](https://qwik.builder.io/docs/integrations/icons/) for icons
+7. [Netlify Edge](https://qwik.builder.io/docs/deployments/netlify-edge/) or [Vercel Edge](https://qwik.builder.io/docs/deployments/vercel-edge/) for faster edge deploys
+8. [MDX for Markdown](https://qwik.builder.io/docs/guides/mdx/) or [Prisma for MongoDB](https://qwik.builder.io/docs/integrations/prisma/) or [Supabase for SQL](https://qwik.builder.io/docs/integrations/supabase/) for some sort of database for hundreds of links and their metadata (or it could just be a massive JSON but that doesn't have pagination)
+9. [Sitemaps via Netlify adapter](https://qwik.builder.io/docs/advanced/sitemaps/) for generating `sitemap.xml`
+10. [404](https://qwik.builder.io/docs/advanced/routing/) page handling
+11. What else?...
+
 # Qwik App ⚡️
 
 - [Qwik Docs](https://qwik.builder.io/)
@@ -137,3 +151,9 @@ netlify deploy --build
 You must use the `--build` flag whenever you deploy. This ensures that the Edge Functions that this starter site relies on are generated and available when you deploy your site.
 
 Add `--prod` flag to deploy to production.
+
+## Static Site Generator (Node.js)
+
+```
+pnpm build.server
+```

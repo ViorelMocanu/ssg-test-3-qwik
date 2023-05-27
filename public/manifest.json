@@ -1,0 +1,21 @@
+{
+	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
+	"name": "ssg-test-3-qwik",
+	"short_name": "SSG Test 3: Qwik",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "A test featuring Qwik to see which of the Static Site Generators I should use for my personal website and blog.",
+	"icons": [
+		{
+			"src": "/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}

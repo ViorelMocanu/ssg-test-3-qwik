@@ -1,4 +1,4 @@
-import { component$, Slot, useStyles$ } from '@builder.io/qwik';
+import { component$, Slot } from '@builder.io/qwik'; // useStyles$
 import { routeLoader$ } from '@builder.io/qwik-city';
 
 /*
